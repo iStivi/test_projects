@@ -1,0 +1,29 @@
+[Eagle]
+Version="06 04 00"
+Platform="Windows"
+Serial="62191E841E-LSR-WLM-1EL"
+Globals="Globals"
+Desktop="Desktop"
+
+[Globals]
+AutoSaveProject=1
+UsedLibrary="C:/Program Files (x86)/EAGLE-6.4.0/lbr/iStivi/iStivi - Board-Holes.lbr"
+UsedLibrary="C:/Program Files (x86)/EAGLE-6.4.0/lbr/iStivi/iStivi - Button-Switch.lbr"
+UsedLibrary="C:/Program Files (x86)/EAGLE-6.4.0/lbr/iStivi/iStivi - Header-Connector.lbr"
+UsedLibrary="C:/Program Files (x86)/EAGLE-6.4.0/lbr/iStivi/iStivi - ICs.lbr"
+UsedLibrary="C:/Program Files (x86)/EAGLE-6.4.0/lbr/iStivi/iStivi - RCLD.lbr"
+UsedLibrary="C:/Program Files (x86)/EAGLE-6.4.0/lbr/iStivi/iStivi - Supply.lbr"
+UsedLibrary="C:/Program Files (x86)/EAGLE-6.4.0/lbr/iStivi/iStivi - Transistor-FET.lbr"
+UsedLibrary="C:/Program Files (x86)/EAGLE-6.4.0/lbr/iStivi/iStivi - Tubes.lbr"
+UsedLibrary="C:/Program Files (x86)/EAGLE-6.4.0/lbr/iStivi/iStivi - VReg.lbr"
+UsedLibrary="C:/Program Files (x86)/EAGLE-6.4.0/lbr/iStivi/iStivi - Oscillators.lbr"
+
+[Win_1]
+Type="Control Panel"
+Loc="71 150 1486 905"
+State=2
+Number=0
+
+[Desktop]
+Screen="1920 1080"
+Window="Win_1"
