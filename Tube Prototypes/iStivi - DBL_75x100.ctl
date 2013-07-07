@@ -2,7 +2,7 @@
 
 [Default]
 
-  RoutingGrid     = 12mil
+  RoutingGrid     = 10mil
 
   ; Trace Parameters:
 
@@ -30,7 +30,7 @@
   Active          =    1
   ; Cost Factors:
 
-  cfVia           =    8
+  cfVia           =   90
   cfNonPref       =    5
   cfChangeDir     =    2
   cfOrthStep      =    2
@@ -86,6 +86,7 @@
   @Route
 
   Active          =    1
+  cfVia           =    8
   cfNonPref       =    4
   cfPadImpact     =    4
   cfSmdImpact     =    4
