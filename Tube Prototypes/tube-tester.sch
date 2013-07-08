@@ -4318,9 +4318,9 @@ Standard 1-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="R3" library="iStivi - RCLD" deviceset="RESISTOR" device="R1206" value="1K"/>
 <part name="R5" library="iStivi - RCLD" deviceset="RESISTOR" device="0207/10" value="220K"/>
 <part name="R4" library="iStivi - RCLD" deviceset="RESISTOR" device="0207/10" value="470R"/>
-<part name="R6" library="iStivi - RCLD" deviceset="RESISTOR" device="R1206"/>
+<part name="R6" library="iStivi - RCLD" deviceset="RESISTOR" device="R1206" value="2K2"/>
 <part name="C3" library="iStivi - RCLD" deviceset="CAPACITOR" device="C1206K" value="100pF"/>
-<part name="Q2" library="iStivi - Transistor-FET" deviceset="BC546*" device="" technology="B"/>
+<part name="Q2" library="iStivi - Transistor-FET" deviceset="BC546*" device="" technology="B" value="BC546"/>
 <part name="C2" library="iStivi - RCLD" deviceset="CAPACITOR" device="C1206K" value="2n2"/>
 <part name="L1" library="iStivi - RCLD" deviceset="INDUCTOR" device="0207/10" value="100uH"/>
 <part name="VR1" library="iStivi - RCLD" deviceset="TRIM_POT" device="CA6V" value="1K"/>
@@ -4332,7 +4332,7 @@ Standard 1-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="B" library="iStivi - Button-Switch" deviceset="320-916" device=""/>
 <part name="C" library="iStivi - Button-Switch" deviceset="320-916" device=""/>
 <part name="D" library="iStivi - Button-Switch" deviceset="320-916" device=""/>
-<part name="IC3" library="iStivi - Transistor-FET-reg" deviceset="78*" device="TV" technology="05"/>
+<part name="IC3" library="iStivi - Transistor-FET-reg" deviceset="78*" device="TV" technology="05" value="7805"/>
 <part name="JP1" library="iStivi - Header-Connector" deviceset="M02" device="3.5MM"/>
 <part name="C5" library="iStivi - RCLD" deviceset="CAPACITOR_POL" device="E2-5" value="100uF"/>
 <part name="C6" library="iStivi - RCLD" deviceset="CAPACITOR_POL" device="E2-5" value="10uF"/>

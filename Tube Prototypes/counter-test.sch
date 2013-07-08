@@ -973,12 +973,31 @@ Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
 </symbol>
+<symbol name="VCC">
+<wire x1="1.27" y1="-1.905" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
+<text x="-2.54" y="-2.54" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<pin name="VCC" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="GND" prefix="GND">
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
 <gate name="1" symbol="GND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="VCC" prefix="P+">
+<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
+<gates>
+<gate name="VCC" symbol="VCC" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -1108,10 +1127,9 @@ Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="GND3" library="iStivi - Supply" deviceset="GND" device=""/>
 <part name="GND4" library="iStivi - Supply" deviceset="GND" device=""/>
 <part name="RESET-1S" library="iStivi - Button-Switch" deviceset="SWITCH-MOMENTARY" device="4MM"/>
-<part name="RESET-10S" library="iStivi - Button-Switch" deviceset="SWITCH-MOMENTARY" device="4MM"/>
 <part name="U$3" library="iStivi - Button-Switch" deviceset="SWITCH-MOMENTARY" device="4MM"/>
-<part name="U$4" library="iStivi - Button-Switch" deviceset="SWITCH-MOMENTARY" device="4MM"/>
 <part name="U$5" library="iStivi - Button-Switch" deviceset="SWITCH-MOMENTARY" device="4MM"/>
+<part name="P+1" library="iStivi - Supply" deviceset="VCC" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -1134,10 +1152,9 @@ Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <instance part="GND3" gate="1" x="68.58" y="38.1"/>
 <instance part="GND4" gate="1" x="-17.78" y="38.1"/>
 <instance part="RESET-1S" gate="G$1" x="149.86" y="17.78" rot="R90"/>
-<instance part="RESET-10S" gate="G$1" x="114.3" y="17.78" rot="R90"/>
 <instance part="U$3" gate="G$1" x="60.96" y="17.78" rot="R90"/>
-<instance part="U$4" gate="G$1" x="27.94" y="17.78" rot="R90"/>
 <instance part="U$5" gate="G$1" x="-25.4" y="17.78" rot="R90"/>
+<instance part="P+1" gate="VCC" x="43.18" y="5.08" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -1230,7 +1247,13 @@ Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <segment>
 <pinref part="1H" gate="G$1" pin="4"/>
 <pinref part="IC-1H" gate="A" pin="QD"/>
-<wire x1="-27.94" y1="88.9" x2="-27.94" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="-27.94" y1="88.9" x2="-27.94" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="-27.94" y1="81.28" x2="-27.94" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="-27.94" y1="81.28" x2="-53.34" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="-53.34" y1="81.28" x2="-53.34" y2="33.02" width="0.1524" layer="91"/>
+<junction x="-27.94" y="81.28"/>
+<wire x1="-53.34" y1="33.02" x2="-71.12" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="-71.12" y1="33.02" x2="-71.12" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$16" class="0">
@@ -1292,8 +1315,12 @@ Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="76.2" y1="81.28" x2="76.2" y2="33.02" width="0.1524" layer="91"/>
 <junction x="111.76" y="81.28"/>
 <pinref part="IC-1M" gate="A" pin="CKA"/>
-<wire x1="76.2" y1="33.02" x2="50.8" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="33.02" x2="60.96" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="33.02" x2="50.8" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="33.02" x2="50.8" y2="48.26" width="0.1524" layer="91"/>
+<pinref part="U$3" gate="G$1" pin="2"/>
+<wire x1="60.96" y1="22.86" x2="60.96" y2="33.02" width="0.1524" layer="91"/>
+<junction x="60.96" y="33.02"/>
 </segment>
 </net>
 <net name="N$12" class="0">
@@ -1327,16 +1354,25 @@ Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="-10.16" y1="81.28" x2="-10.16" y2="33.02" width="0.1524" layer="91"/>
 <junction x="25.4" y="81.28"/>
 <pinref part="IC-1H" gate="A" pin="CKA"/>
-<wire x1="-10.16" y1="33.02" x2="-35.56" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="-10.16" y1="33.02" x2="-25.4" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="-25.4" y1="33.02" x2="-35.56" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="-35.56" y1="33.02" x2="-35.56" y2="48.26" width="0.1524" layer="91"/>
+<pinref part="U$5" gate="G$1" pin="2"/>
+<wire x1="-25.4" y1="22.86" x2="-25.4" y2="33.02" width="0.1524" layer="91"/>
+<junction x="-25.4" y="33.02"/>
 </segment>
 </net>
 <net name="N$19" class="0">
 <segment>
 <pinref part="IC-1S" gate="A" pin="CKA"/>
 <pinref part="JP1" gate="G$1" pin="1"/>
-<wire x1="139.7" y1="48.26" x2="139.7" y2="-7.62" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="48.26" x2="139.7" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="33.02" x2="139.7" y2="-7.62" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="-7.62" x2="147.32" y2="-7.62" width="0.1524" layer="91"/>
+<pinref part="RESET-1S" gate="G$1" pin="2"/>
+<wire x1="149.86" y1="22.86" x2="149.86" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="33.02" x2="139.7" y2="33.02" width="0.1524" layer="91"/>
+<junction x="139.7" y="33.02"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -1375,6 +1411,20 @@ Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="154.94" y1="48.26" x2="154.94" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="45.72" x2="157.48" y2="45.72" width="0.1524" layer="91"/>
 <junction x="157.48" y="45.72"/>
+</segment>
+</net>
+<net name="VCC" class="0">
+<segment>
+<pinref part="U$5" gate="G$1" pin="1"/>
+<pinref part="U$3" gate="G$1" pin="1"/>
+<wire x1="-25.4" y1="12.7" x2="43.18" y2="12.7" width="0.1524" layer="91"/>
+<pinref part="RESET-1S" gate="G$1" pin="1"/>
+<wire x1="43.18" y1="12.7" x2="60.96" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="12.7" x2="149.86" y2="12.7" width="0.1524" layer="91"/>
+<junction x="60.96" y="12.7"/>
+<pinref part="P+1" gate="VCC" pin="VCC"/>
+<wire x1="43.18" y1="7.62" x2="43.18" y2="12.7" width="0.1524" layer="91"/>
+<junction x="43.18" y="12.7"/>
 </segment>
 </net>
 </nets>
