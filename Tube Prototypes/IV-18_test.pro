@@ -2,8 +2,8 @@ EAGLE AutoRouter Statistics:
 
 Job           : C:/Users/Stephen/Documents/eagle/test_projects/Tube Prototypes/IV-18_test.brd
 
-Start at      : 21:40:59 (7/07/2013)
-End at        : 21:40:59 (7/07/2013)
+Start at      : 17:09:53 (8/07/2013)
+End at        : 17:09:53 (8/07/2013)
 Elapsed time  : 00:00:00
 
 Signals       :    26   RoutingGrid: 5 mil  Layers: 2
