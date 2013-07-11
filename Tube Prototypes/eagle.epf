@@ -28,7 +28,7 @@ UsedLibrary="C:/Program Files (x86)/EAGLE-6.4.0/lbr/eagle-ltspice.lbr"
 [Win_1]
 Type="Schematic Editor"
 Loc="652 321 1251 720"
-State=0
+State=2
 Number=2
 File="tube-tester.sch"
 View="-16.056 7.35076 286.574 122.613"
@@ -75,7 +75,7 @@ Sheet=1
 
 [Win_2]
 Type="Control Panel"
-Loc="388 115 1785 913"
+Loc="-1445 76 -48 874"
 State=2
 Number=0
 
