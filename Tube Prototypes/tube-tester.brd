@@ -222,10 +222,10 @@
 <circle x="92.71" y="39.37" radius="0.275" width="0.35" layer="116"/>
 <circle x="92.71" y="13.97" radius="0.275" width="0.35" layer="116"/>
 <circle x="92.71" y="24.13" radius="0.275" width="0.35" layer="116"/>
-<circle x="5" y="5" radius="0.875" width="1.55" layer="116"/>
-<circle x="95" y="5" radius="0.875" width="1.55" layer="116"/>
-<circle x="95" y="70" radius="0.875" width="1.55" layer="116"/>
-<circle x="5" y="70" radius="0.875" width="1.55" layer="116"/>
+<circle x="5" y="5" radius="1.5" width="1.55" layer="116"/>
+<circle x="95" y="5" radius="1.5" width="1.55" layer="116"/>
+<circle x="95" y="70" radius="1.5" width="1.55" layer="116"/>
+<circle x="5" y="70" radius="1.5" width="1.55" layer="116"/>
 <circle x="45.72" y="36.83" radius="0.329" width="0.458" layer="116"/>
 <circle x="50.8" y="36.83" radius="0.329" width="0.458" layer="116"/>
 <circle x="48.26" y="41.91" radius="0.329" width="0.458" layer="116"/>

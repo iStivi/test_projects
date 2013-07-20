@@ -7,31 +7,25 @@ Desktop="Desktop"
 
 [Globals]
 AutoSaveProject=1
-UsedLibrary="C:/Program Files (x86)/EAGLE-6.4.0/lbr/ltspice/Comparators.lbr"
-UsedLibrary="C:/Program Files (x86)/EAGLE-6.4.0/lbr/ltspice/Digital.lbr"
-UsedLibrary="C:/Program Files (x86)/EAGLE-6.4.0/lbr/ltspice/FilterProducts.lbr"
-UsedLibrary="C:/Program Files (x86)/EAGLE-6.4.0/lbr/ltspice/Misc.lbr"
-UsedLibrary="C:/Program Files (x86)/EAGLE-6.4.0/lbr/ltspice/Opamps.lbr"
-UsedLibrary="C:/Program Files (x86)/EAGLE-6.4.0/lbr/ltspice/Optos.lbr"
-UsedLibrary="C:/Program Files (x86)/EAGLE-6.4.0/lbr/ltspice/PAsystem.lbr"
-UsedLibrary="C:/Program Files (x86)/EAGLE-6.4.0/lbr/ltspice/PowerProducts.lbr"
-UsedLibrary="C:/Program Files (x86)/EAGLE-6.4.0/lbr/ltspice/References.lbr"
-UsedLibrary="C:/Program Files (x86)/EAGLE-6.4.0/lbr/ltspice/SpecialFunctions.lbr"
-UsedLibrary="C:/Program Files (x86)/EAGLE-6.4.0/lbr/ltspice/capmeter.lbr"
-UsedLibrary="C:/Program Files (x86)/EAGLE-6.4.0/lbr/ltspice/diode.lbr"
-UsedLibrary="C:/Program Files (x86)/EAGLE-6.4.0/lbr/ltspice/lt-spice-simulation.lbr"
-UsedLibrary="C:/Program Files (x86)/EAGLE-6.4.0/lbr/ltspice/lt-supply.lbr"
-UsedLibrary="C:/Program Files (x86)/EAGLE-6.4.0/lbr/ltspice/rload.lbr"
-UsedLibrary="C:/Program Files (x86)/EAGLE-6.4.0/lbr/ltspice/sym.lbr"
-UsedLibrary="C:/Program Files (x86)/EAGLE-6.4.0/lbr/eagle-ltspice.lbr"
+UsedLibrary="C:/Users/Stephen/Documents/eagle/libraries/iStivi_Eagle_Library/iStivi - Board-Holes.lbr"
+UsedLibrary="C:/Users/Stephen/Documents/eagle/libraries/iStivi_Eagle_Library/iStivi - Button-Switch.lbr"
+UsedLibrary="C:/Users/Stephen/Documents/eagle/libraries/iStivi_Eagle_Library/iStivi - Header-Connector.lbr"
+UsedLibrary="C:/Users/Stephen/Documents/eagle/libraries/iStivi_Eagle_Library/iStivi - ICs.lbr"
+UsedLibrary="C:/Users/Stephen/Documents/eagle/libraries/iStivi_Eagle_Library/iStivi - Oscillators.lbr"
+UsedLibrary="C:/Users/Stephen/Documents/eagle/libraries/iStivi_Eagle_Library/iStivi - RCLD.lbr"
+UsedLibrary="C:/Users/Stephen/Documents/eagle/libraries/iStivi_Eagle_Library/iStivi - Supply.lbr"
+UsedLibrary="C:/Users/Stephen/Documents/eagle/libraries/iStivi_Eagle_Library/iStivi - Transformers.lbr"
+UsedLibrary="C:/Users/Stephen/Documents/eagle/libraries/iStivi_Eagle_Library/iStivi - Transistor-FET-reg.lbr"
+UsedLibrary="C:/Users/Stephen/Documents/eagle/libraries/iStivi_Eagle_Library/iStivi - Tubes.lbr"
+UsedLibrary="C:/Users/Stephen/Documents/eagle/libraries/iStivi_Eagle_Library/iStivi - LED.lbr"
 
 [Win_1]
 Type="Schematic Editor"
 Loc="652 321 1251 720"
-State=2
+State=0
 Number=2
-File="tube-tester.sch"
-View="-16.056 7.35076 286.574 122.613"
+File="C:/Users/Stephen/Documents/eagle/projects/6 Digit Display/6-digit-board.sch"
+View="-4.25348 -58.8641 252.149 131.53"
 WireWidths=" 0 0.3048 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0.4064 0.1524"
 PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
 PadDrills=" 0.5 0.6 0.7 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.8"
@@ -70,12 +64,12 @@ ArcDirection=0
 AddLevel=2
 PadsSameType=0
 Layer=91
-Views=" 1: -16.056 7.35076 286.574 122.613"
+Views=" 1: -4.25348 -58.8641 252.149 131.53"
 Sheet=1
 
 [Win_2]
 Type="Control Panel"
-Loc="-1445 76 -48 874"
+Loc="-1709 48 -312 846"
 State=2
 Number=0
 
