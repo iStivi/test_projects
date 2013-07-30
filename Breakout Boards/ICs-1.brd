@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -705,10 +705,10 @@
 <circle x="28.764" y="37.338" radius="0.404" width="0.409" layer="116"/>
 <circle x="28.764" y="39.878" radius="0.404" width="0.409" layer="116"/>
 <circle x="28.764" y="42.418" radius="0.404" width="0.409" layer="116"/>
-<circle x="10" y="43.73" radius="0.404" width="0.409" layer="116"/>
-<circle x="12.54" y="43.73" radius="0.404" width="0.409" layer="116"/>
-<circle x="15.08" y="43.73" radius="0.404" width="0.409" layer="116"/>
-<circle x="17.62" y="43.73" radius="0.404" width="0.409" layer="116"/>
+<circle x="9.746" y="44.238" radius="0.404" width="0.409" layer="116"/>
+<circle x="12.286" y="44.238" radius="0.404" width="0.409" layer="116"/>
+<circle x="14.826" y="44.238" radius="0.404" width="0.409" layer="116"/>
+<circle x="17.366" y="44.238" radius="0.404" width="0.409" layer="116"/>
 </plain>
 <libraries>
 <library name="iStivi - ICs">
@@ -1383,11 +1383,11 @@ design rules under a new name.</description>
 <element name="E$49" library="iStivi - ICs" package="SO08" value="" x="36.384" y="38.608" rot="R90"/>
 <element name="E$50" library="iStivi - Header-Connector" package="1X04_LONGPADS" value="" x="44.004" y="34.798" rot="R90"/>
 <element name="E$51" library="iStivi - Header-Connector" package="1X04_LONGPADS" value="" x="28.764" y="34.798" rot="R90"/>
-<element name="E$52" library="iStivi - LED" package="LED1210" value="" x="9" y="33"/>
-<element name="E$53" library="iStivi - RCLD" package="R1206" value="" x="9" y="37"/>
-<element name="E$54" library="iStivi - LED" package="LED1210" value="" x="18.27" y="33"/>
-<element name="E$55" library="iStivi - RCLD" package="R1206" value="" x="18.27" y="37"/>
-<element name="E$56" library="iStivi - Header-Connector" package="1X04_LONGPADS" value="" x="10" y="43.73"/>
+<element name="E$52" library="iStivi - LED" package="LED1210" value="" x="9.508" y="32.746"/>
+<element name="E$53" library="iStivi - RCLD" package="R1206" value="" x="7.196" y="38.718" rot="R90"/>
+<element name="E$54" library="iStivi - LED" package="LED1210" value="" x="17.508" y="32.746"/>
+<element name="E$55" library="iStivi - RCLD" package="R1206" value="" x="19.896" y="38.844" rot="R90"/>
+<element name="E$56" library="iStivi - Header-Connector" package="1X04_LONGPADS" value="" x="9.746" y="44.238"/>
 </elements>
 <signals>
 <signal name="S$17">
@@ -2675,44 +2675,46 @@ design rules under a new name.</description>
 <wire x1="39.0002" y1="42.418" x2="44.004" y2="42.418" width="0.6096" layer="1"/>
 </signal>
 <signal name="S$205">
-<contactref element="E$53" pad="1"/>
+<contactref element="E$53" pad="2"/>
 <contactref element="E$56" pad="1"/>
-<wire x1="10" y1="43.73" x2="7.578" y2="43.73" width="1.016" layer="1"/>
-<wire x1="7.578" y1="43.73" x2="7.578" y2="37" width="1.016" layer="1"/>
-<contactref element="E$52" pad="A"/>
-<wire x1="7.578" y1="37" x2="7.62" y2="37" width="1.016" layer="1"/>
-<wire x1="7.62" y1="37" x2="7.62" y2="33.02" width="1.016" layer="1"/>
-<wire x1="7.62" y1="33.02" x2="7.4" y2="33.02" width="1.016" layer="1"/>
-<wire x1="7.4" y1="33.02" x2="7.4" y2="33" width="1.016" layer="1"/>
+<wire x1="7.196" y1="40.14" x2="7.196" y2="41.486" width="1.016" layer="1"/>
+<wire x1="7.196" y1="41.486" x2="9.652" y2="43.942" width="1.016" layer="1"/>
+<wire x1="9.652" y1="43.942" x2="9.652" y2="44.144" width="1.016" layer="1"/>
+<wire x1="9.652" y1="44.144" x2="9.746" y2="44.238" width="1.016" layer="1"/>
 </signal>
 <signal name="S$206">
-<contactref element="E$53" pad="2"/>
-<contactref element="E$56" pad="2"/>
-<contactref element="E$52" pad="C"/>
-<wire x1="12.54" y1="43.73" x2="12.54" y2="39.118" width="1.016" layer="1"/>
-<wire x1="12.54" y1="39.118" x2="10.422" y2="37" width="1.016" layer="1"/>
-<wire x1="10.422" y1="37" x2="10.6" y2="37" width="1.016" layer="1"/>
-<wire x1="10.6" y1="37" x2="10.6" y2="33" width="1.016" layer="1"/>
+<contactref element="E$52" pad="A"/>
+<contactref element="E$53" pad="1"/>
+<wire x1="7.908" y1="32.746" x2="7.112" y2="33.542" width="1.016" layer="1"/>
+<wire x1="7.112" y1="33.542" x2="7.112" y2="37.338" width="1.016" layer="1"/>
+<wire x1="7.112" y1="37.338" x2="7.154" y2="37.296" width="1.016" layer="1"/>
+<wire x1="7.154" y1="37.296" x2="7.196" y2="37.296" width="1.016" layer="1"/>
 </signal>
 <signal name="S$207">
-<contactref element="E$55" pad="1"/>
-<contactref element="E$56" pad="3"/>
-<contactref element="E$54" pad="A"/>
-<wire x1="15.08" y1="43.73" x2="15.08" y2="38.768" width="1.016" layer="1"/>
-<wire x1="15.08" y1="38.768" x2="16.848" y2="37" width="1.016" layer="1"/>
-<wire x1="16.848" y1="37" x2="16.51" y2="37" width="1.016" layer="1"/>
-<wire x1="16.51" y1="37" x2="16.51" y2="33.02" width="1.016" layer="1"/>
-<wire x1="16.51" y1="33.02" x2="16.67" y2="33.02" width="1.016" layer="1"/>
-<wire x1="16.67" y1="33.02" x2="16.67" y2="33" width="1.016" layer="1"/>
+<contactref element="E$56" pad="2"/>
+<contactref element="E$52" pad="C"/>
+<wire x1="11.108" y1="32.746" x2="12.286" y2="33.924" width="1.016" layer="1"/>
+<wire x1="12.286" y1="33.924" x2="12.286" y2="44.238" width="1.016" layer="1"/>
 </signal>
 <signal name="S$208">
+<contactref element="E$54" pad="A"/>
+<contactref element="E$56" pad="3"/>
+<wire x1="15.908" y1="32.746" x2="14.826" y2="33.828" width="1.016" layer="1"/>
+<wire x1="14.826" y1="33.828" x2="14.826" y2="44.238" width="1.016" layer="1"/>
+</signal>
+<signal name="S$209">
+<contactref element="E$55" pad="1"/>
+<contactref element="E$54" pad="C"/>
+<wire x1="19.108" y1="32.746" x2="20.066" y2="33.704" width="1.016" layer="1"/>
+<wire x1="20.066" y1="33.704" x2="20.066" y2="37.084" width="1.016" layer="1"/>
+<wire x1="20.066" y1="37.084" x2="19.896" y2="37.254" width="1.016" layer="1"/>
+<wire x1="19.896" y1="37.254" x2="19.896" y2="37.422" width="1.016" layer="1"/>
+</signal>
+<signal name="S$210">
 <contactref element="E$55" pad="2"/>
 <contactref element="E$56" pad="4"/>
-<contactref element="E$54" pad="C"/>
-<wire x1="17.62" y1="43.73" x2="19.692" y2="43.73" width="1.016" layer="1"/>
-<wire x1="19.692" y1="43.73" x2="19.692" y2="37" width="1.016" layer="1"/>
-<wire x1="19.692" y1="37" x2="19.87" y2="37" width="1.016" layer="1"/>
-<wire x1="19.87" y1="37" x2="19.87" y2="33" width="1.016" layer="1"/>
+<wire x1="19.896" y1="40.266" x2="19.896" y2="41.708" width="1.016" layer="1"/>
+<wire x1="19.896" y1="41.708" x2="17.366" y2="44.238" width="1.016" layer="1"/>
 </signal>
 </signals>
 </board>
