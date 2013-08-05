@@ -2,7 +2,7 @@
 
 [Default]
 
-  RoutingGrid     = 10mil
+  RoutingGrid     = 5mil
 
   ; Trace Parameters:
 
@@ -30,7 +30,7 @@
   Active          =    1
   ; Cost Factors:
 
-  cfVia           =   90
+  cfVia           =   99
   cfNonPref       =    5
   cfChangeDir     =    2
   cfOrthStep      =    2
@@ -38,10 +38,10 @@
   cfExtdStep      =    0
   cfBonusStep     =    1
   cfMalusStep     =    1
-  cfPadImpact     =    2
-  cfSmdImpact     =    2
+  cfPadImpact     =    4
+  cfSmdImpact     =    4
   cfBusImpact     =    0
-  cfHugging       =    5
+  cfHugging       =    3
   cfAvoid         =    4
   cfPolygon       =   10
 
@@ -76,10 +76,6 @@
   @Route
 
   Active          =    1
-  cfPadImpact     =    4
-  cfSmdImpact     =    4
-  cfHugging       =    3
-  mnVias          =   20
 
 [Busses]
 
@@ -88,8 +84,6 @@
   Active          =    1
   cfVia           =    8
   cfNonPref       =    4
-  cfPadImpact     =    4
-  cfSmdImpact     =    4
   cfBusImpact     =    4
   cfHugging       =    0
   mnVias          =    0
@@ -105,7 +99,6 @@
   @Route
 
   Active          =    1
-  cfVia           =   99
   cfExtdStep      =   10
   cfHugging       =    1
   mnExtdSteps     =    1
@@ -117,10 +110,12 @@
 
   Active          =    1
   cfNonPref       =    0
-  cfChangeDir     =    5
+  cfChangeDir     =    6
   cfExtdStep      =    0
   cfBonusStep     =    2
   cfMalusStep     =    2
+  cfPadImpact     =    2
+  cfSmdImpact     =    2
   cfHugging       =    0
 
 [Optimize3]
@@ -128,6 +123,7 @@
   @Optimize2
 
   Active          =    1
+  cfChangeDir     =    8
   cfPadImpact     =    0
   cfSmdImpact     =    0
 
@@ -136,4 +132,6 @@
   @Optimize3
 
   Active          =    1
+  cfChangeDir     =   25
+  mnVias          =   15
 
