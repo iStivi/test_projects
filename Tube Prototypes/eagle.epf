@@ -21,8 +21,8 @@ UsedLibrary="C:/Users/Stephen/Documents/eagle/libraries/iStivi_Eagle_Library/iSt
 
 [Win_1]
 Type="Schematic Editor"
-Loc="526 171 1616 929"
-State=2
+Loc="652 321 1251 720"
+State=0
 Number=2
 File="tube-tester.sch"
 View="-16.056 7.35076 286.574 122.613"
@@ -64,12 +64,11 @@ ArcDirection=0
 AddLevel=2
 PadsSameType=0
 Layer=91
-Views=" 1: -16.056 7.35076 286.574 122.613"
 Sheet=1
 
 [Win_2]
 Type="Control Panel"
-Loc="-1654 103 -258 901"
+Loc="-1390 174 -492 822"
 State=2
 Number=0
 
