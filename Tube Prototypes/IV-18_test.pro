@@ -2,14 +2,14 @@ EAGLE AutoRouter Statistics:
 
 Job           : C:/Users/Stephen/Documents/eagle/test_projects/Tube Prototypes/IV-18_test.brd
 
-Start at      : 22:08:26 (12/07/2013)
-End at        : 22:08:26 (12/07/2013)
+Start at      : 18:01:29 (19/08/2013)
+End at        : 18:01:29 (19/08/2013)
 Elapsed time  : 00:00:00
 
-Signals       :    26   RoutingGrid: 5 mil  Layers: 2
+Signals       :    26   RoutingGrid: 12 mil  Layers: 2
 Connections   :    33   predefined:  33 ( 14 Vias )
 
-Router memory :   1695680
+Router memory :   174752
 
 Passname          :     Route Optimize1 Optimize2 Optimize3 Optimize4
 
