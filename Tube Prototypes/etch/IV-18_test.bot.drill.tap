@@ -4,22 +4,22 @@
 (This file generated from the board:)
 (.../Tube Prototypes/IV-18_test.brd)
 (Current profile is .../pcb-gcode-3.6.0.4/profiles/mach.pp  )
-(This file generated 18/08/2013 10:49:51 PM)
+(This file generated 19/08/2013 6:14:37 PM)
 (Settings from pcb-machine.h)
 (  Tool Size)
-(0.1000  )
+(0.1500  )
 (Z Axis Settings)
 (  High     Up        Down     Drill)
-(15.0000 	2.0000  	-0.2500 	-1.5000 )
+(15.0000 	2.0000  	-0.1000 	-1.5000 )
 (spindle on time = 1.0000)
 (milling depth = -0.3000)
 (text depth = -0.1500)
 (tool change at 0.0000  0.0000  20.0000 )
-(feed rate xy = F100   )
+(feed rate xy = F250   )
 (feed rate z  = F100   )
 (Settings from pcb-defaults.h)
 (isolate min = 0.0254)
-(isolate max = 0.2500)
+(isolate max = 0.1000)
 (isolate step = 0.1000)
 (Generated top outlines, bottom outlines, bottom drill, )
 (Unit of measure: mm)
@@ -27,7 +27,7 @@
 ( T01 | 0.600mm 0.0236in | 0.0000in | 0.0000in |       0 )
 ( T02 | 0.800mm 0.0315in | 0.0000in | 0.0000in |       0 )
 ( T03 | 0.813mm 0.0320in | 0.0000in | 0.0000in |       0 )
-( T04 | 1.000mm 0.0394in | 0.0000in | 0.0000in |       0 )
+( T04 | 0.840mm 0.0331in | 0.0000in | 0.0000in |       0 )
 ( T05 | 1.118mm 0.0440in | 0.0000in | 0.0000in |       0 )
 (Metric Mode)
 G21
@@ -85,26 +85,31 @@ G82 X-10.6060 Y23.0900
 G82 X-10.7660 Y29.7250 
 M05
 G00 Z20.0000 
-M06 T04  ; 1.0000  
+M06 T04  ; 0.8400  
 G01 Z0.0000  F100   
-M06 T04  ; 1.0000  
+M06 T04  ; 0.8400  
 G00 Z2.0000  
 M03
 G04 P1.000000
-G82 X-32.0040 Y21.9710 Z-1.5000 F100   R2.0000  P1.000000
-G82 X-33.5280 Y35.4330 
-G82 X-35.0520 Y21.7170 
-G82 X-36.5760 Y13.4620 
-G82 X-37.3380 Y18.9230 
-G82 X-38.9890 Y28.1940 
-G82 X-41.4020 Y29.7180 
-G82 X-18.1610 Y41.6560 
-G82 X-18.7960 Y38.8620 
-G82 X-26.2890 Y30.9880 
-G82 X-26.4160 Y61.7220 
-G82 X-27.6860 Y56.1340 
-G82 X-29.2100 Y19.8120 
-G82 X-29.8450 Y16.3830 
+G82 X-32.7660 Y18.5420 Z-1.5000 F100   R2.0000  P1.000000
+G82 X-33.5280 Y14.8590 
+G82 X-35.8140 Y20.7010 
+G82 X-37.8460 Y16.1290 
+G82 X-38.7350 Y35.8140 
+G82 X-39.1160 Y42.4180 
+G82 X-40.1320 Y29.0830 
+G82 X-41.0210 Y23.1140 
+G82 X-41.1480 Y39.2430 
+G82 X-42.2910 Y9.2710  
+G82 X-43.1800 Y35.1790 
+G82 X-17.0180 Y36.0680 
+G82 X-17.0180 Y44.0690 
+G82 X-22.4790 Y20.1930 
+G82 X-23.1140 Y41.0210 
+G82 X-26.2890 Y48.0060 
+G82 X-27.1780 Y40.1320 
+G82 X-28.7020 Y58.2930 
+G82 X-30.2260 Y21.2090 
 M05
 G00 Z20.0000 
 M06 T05  ; 1.1176  
