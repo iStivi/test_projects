@@ -576,7 +576,7 @@ distributor Schukat</description>
 <wire x1="0.83" y1="13.7" x2="0.83" y2="12.7" width="0.2032" layer="51"/>
 <wire x1="0.83" y1="12.7" x2="0.83" y2="8.4" width="0.2032" layer="21"/>
 <wire x1="0.83" y1="8.4" x2="0.83" y2="6.55" width="0.2032" layer="51"/>
-<wire x1="0.98" y1="13.8" x2="4.18" y2="13.8" width="1.016" layer="46"/>
+<wire x1="1.48" y1="13.8" x2="3.68" y2="13.8" width="1" layer="46"/>
 <wire x1="0.83" y1="3.1" x2="0.83" y2="0.1" width="0.2032" layer="51"/>
 <wire x1="9.33" y1="0.1" x2="9.33" y2="3.1" width="0.2032" layer="51"/>
 <wire x1="9.33" y1="0.1" x2="0.83" y2="0.1" width="0.2032" layer="51"/>
@@ -589,8 +589,8 @@ distributor Schukat</description>
 <text x="0" y="0" size="1.778" layer="25" rot="R90">&gt;NAME</text>
 <text x="11.43" y="0" size="1.778" layer="27" rot="R90">&gt;VALUE</text>
 <rectangle x1="0.254" y1="-0.254" x2="9.906" y2="14.732" layer="43"/>
-<wire x1="0.98" y1="7.45" x2="4.18" y2="7.45" width="1.016" layer="46"/>
-<wire x1="7.58" y1="12.4" x2="7.58" y2="9.2" width="1.016" layer="46"/>
+<wire x1="1.48" y1="7.45" x2="3.68" y2="7.45" width="1.016" layer="46"/>
+<wire x1="7.58" y1="11.9" x2="7.58" y2="9.7" width="1.016" layer="46"/>
 </package>
 </packages>
 </library>
