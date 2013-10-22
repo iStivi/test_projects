@@ -2,8 +2,8 @@ EAGLE AutoRouter Statistics:
 
 Job           : C:/Users/Stephen/Documents/eagle/test_projects/180V_power/180V_power.brd
 
-Start at      : 21:19:28 (9/10/2013)
-End at        : 21:19:29 (9/10/2013)
+Start at      : 12:06:06 (12/10/2013)
+End at        : 12:06:07 (12/10/2013)
 Elapsed time  : 00:00:01
 
 Signals       :    12   RoutingGrid: 5 mil  Layers: 2
@@ -13,7 +13,7 @@ Router memory :   975240
 
 Passname          :     Route Optimize1 Optimize2 Optimize3 Optimize4
 
-Time per pass     :  00:00:00  00:00:00  00:00:00  00:00:00  00:00:01
+Time per pass     :  00:00:00  00:00:01  00:00:00  00:00:00  00:00:00
 Number of Ripups  :         0         0         0         0         0
 max. Level        :         0         0         0         0         0
 max. Total        :         0         0         0         0         0
