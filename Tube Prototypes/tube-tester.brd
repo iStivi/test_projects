@@ -124,7 +124,7 @@
 </layers>
 <board>
 <plain>
-<text x="94.234" y="12.7" size="2.54" layer="1" rot="R90">NIXIE TESTER</text>
+<text x="96.774" y="12.7" size="2.54" layer="1" rot="R90">NIXIE TESTER</text>
 <text x="2.54" y="12.065" size="2" layer="112" font="vector" ratio="15">GND</text>
 <text x="2.54" y="23.495" size="2" layer="112" font="vector" ratio="15">+12V</text>
 <text x="93.345" y="29.21" size="1.5" layer="112" font="vector" ratio="15" rot="R180">INS-1 NEON
