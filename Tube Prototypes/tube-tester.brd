@@ -1947,18 +1947,6 @@ Design rules to fit with the etch and screening methods I use. For photoresist e
 <wire x1="16.637" y1="20.447" x2="17.018" y2="20.447" width="0.4064" layer="16"/>
 <wire x1="18.288" y1="31.623" x2="18.161" y2="31.75" width="0.4064" layer="16"/>
 <wire x1="16.637" y1="20.447" x2="16.51" y2="20.32" width="0.4064" layer="16"/>
-<polygon width="0.2032" layer="16">
-<vertex x="0" y="0"/>
-<vertex x="100" y="0"/>
-<vertex x="100" y="75"/>
-<vertex x="0" y="75"/>
-</polygon>
-<polygon width="0.2032" layer="1">
-<vertex x="0" y="0"/>
-<vertex x="100" y="0"/>
-<vertex x="100" y="75"/>
-<vertex x="0" y="75"/>
-</polygon>
 </signal>
 <signal name="N$4">
 <contactref element="R3" pad="1"/>
