@@ -1873,7 +1873,7 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </classes>
 <parts>
 <part name="Q1" library="iStivi - Oscillators" deviceset="CRYSTAL" device="TC26V" value="32.768kHz"/>
-<part name="IC1" library="iStivi - ICs" deviceset="74*14" device="N" technology="LS"/>
+<part name="IC1" library="iStivi - ICs" deviceset="74*14" device="D" technology="LS" value="74LS14D"/>
 <part name="C2" library="iStivi - RCLD" deviceset="CAPACITOR" device="050-024X044" value="22pF"/>
 <part name="R1" library="iStivi - RCLD" deviceset="RESISTOR" device="0207/10" value="10M"/>
 <part name="R2" library="iStivi - RCLD" deviceset="RESISTOR" device="0207/10" value="330K"/>
