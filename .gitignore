@@ -2,11 +2,7 @@
 *.bak
 *.orig
 *.epf
-*/*.epf
-*/*.?#?
-*/*.bak
-*/*.orig
-*/*/*.png
-*/*/*.db
+*.png
+*.ps
 */*/*.xcf
-*/*/*.ps
+cam/
