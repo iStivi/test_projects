@@ -6,36 +6,36 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,16 +53,16 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
@@ -189,7 +189,7 @@
 <wire x1="7.62" y1="10.16" x2="-7.62" y2="10.16" width="0.254" layer="94"/>
 <text x="-7.62" y="11.43" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-12.7" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="TRE" x="-10.16" y="7.62" length="short" direction="in"/>
+<pin name="THR" x="-10.16" y="7.62" length="short" direction="in"/>
 <pin name="OUT" x="10.16" y="0" length="short" direction="out" rot="R180"/>
 <pin name="DIS" x="-10.16" y="0" length="short" direction="in"/>
 <pin name="TRI" x="-10.16" y="-7.62" length="short" direction="in"/>
@@ -215,7 +215,7 @@ General purpose bipolar Timer</description>
 <connect gate="G$1" pin="DIS" pad="7"/>
 <connect gate="G$1" pin="GND" pad="1"/>
 <connect gate="G$1" pin="OUT" pad="3"/>
-<connect gate="G$1" pin="TRE" pad="6"/>
+<connect gate="G$1" pin="THR" pad="6"/>
 <connect gate="G$1" pin="TRI" pad="2"/>
 <connect gate="G$1" pin="VCC+" pad="8"/>
 </connects>
@@ -235,7 +235,7 @@ General purpose bipolar Timer</description>
 <connect gate="G$1" pin="DIS" pad="7"/>
 <connect gate="G$1" pin="GND" pad="1"/>
 <connect gate="G$1" pin="OUT" pad="3"/>
-<connect gate="G$1" pin="TRE" pad="6"/>
+<connect gate="G$1" pin="THR" pad="6"/>
 <connect gate="G$1" pin="TRI" pad="2"/>
 <connect gate="G$1" pin="VCC+" pad="8"/>
 </connects>
@@ -389,8 +389,8 @@ grid 5.08 mm, diameter 10.5 mm</description>
 <wire x1="1.143" y1="0" x2="1.651" y2="0" width="0.1524" layer="51"/>
 <wire x1="-1.651" y1="0" x2="-1.143" y2="0" width="0.1524" layer="51"/>
 <circle x="0" y="0" radius="5.08" width="0.1524" layer="21"/>
-<pad name="+" x="-2.54" y="0" drill="0.6" diameter="1.5"/>
-<pad name="-" x="2.54" y="0" drill="0.6" diameter="1.5"/>
+<pad name="+" x="-2.54" y="0" drill="0.8" diameter="1.6764"/>
+<pad name="-" x="2.54" y="0" drill="0.8" diameter="1.6764"/>
 <text x="4.699" y="2.7432" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-3.1242" y="-3.2258" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="0.254" y1="-1.143" x2="0.889" y2="1.143" layer="21"/>
@@ -845,48 +845,6 @@ Source: TOP MAGNETICS CORPORATION .. tfi.pdf</description>
 <rectangle x1="5.165" y1="-0.254" x2="5.546" y2="0.254" layer="21"/>
 <rectangle x1="-5.546" y1="-0.254" x2="-5.165" y2="0.254" layer="21"/>
 </package>
-<package name="E5-13">
-<description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
-grid 5.08 mm, diameter 13 mm</description>
-<wire x1="-1.143" y1="0" x2="-0.889" y2="0" width="0.1524" layer="21"/>
-<wire x1="-0.889" y1="0" x2="-0.889" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-0.889" y1="-1.27" x2="-0.254" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-0.254" y1="-1.27" x2="-0.254" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-0.254" y1="1.27" x2="-0.889" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-0.889" y1="1.27" x2="-0.889" y2="0" width="0.1524" layer="21"/>
-<wire x1="0.635" y1="0" x2="1.143" y2="0" width="0.1524" layer="21"/>
-<wire x1="-5.715" y1="0" x2="-4.445" y2="0" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="-0.635" x2="-5.08" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="0" x2="1.524" y2="0" width="0.1524" layer="51"/>
-<wire x1="-1.651" y1="0" x2="-1.143" y2="0" width="0.1524" layer="51"/>
-<circle x="0" y="0" radius="6.985" width="0.1524" layer="21"/>
-<pad name="+" x="-2.54" y="0" drill="0.6" diameter="1.5"/>
-<pad name="-" x="2.54" y="0" drill="0.6" diameter="1.5"/>
-<text x="6.3754" y="4.1148" size="1.778" layer="25" ratio="10">&gt;NAME</text>
-<text x="-4.572" y="-3.937" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
-<rectangle x1="0.254" y1="-1.27" x2="0.889" y2="1.27" layer="21"/>
-</package>
-<package name="E5-8,5">
-<description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
-grid 5.08 mm, diameter 8.5 mm</description>
-<wire x1="-1.143" y1="0" x2="-0.889" y2="0" width="0.1524" layer="21"/>
-<wire x1="-0.889" y1="0" x2="-0.889" y2="-1.143" width="0.1524" layer="21"/>
-<wire x1="-0.889" y1="-1.143" x2="-0.254" y2="-1.143" width="0.1524" layer="21"/>
-<wire x1="-0.254" y1="-1.143" x2="-0.254" y2="1.143" width="0.1524" layer="21"/>
-<wire x1="-0.254" y1="1.143" x2="-0.889" y2="1.143" width="0.1524" layer="21"/>
-<wire x1="-0.889" y1="1.143" x2="-0.889" y2="0" width="0.1524" layer="21"/>
-<wire x1="0.635" y1="0" x2="1.143" y2="0" width="0.1524" layer="21"/>
-<wire x1="-3.302" y1="2.032" x2="-3.302" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-3.683" y1="1.651" x2="-2.921" y2="1.651" width="0.1524" layer="21"/>
-<wire x1="1.143" y1="0" x2="1.651" y2="0" width="0.1524" layer="51"/>
-<wire x1="-1.651" y1="0" x2="-1.143" y2="0" width="0.1524" layer="51"/>
-<circle x="0" y="0" radius="4.445" width="0.1524" layer="21"/>
-<pad name="+" x="-2.54" y="0" drill="0.6" diameter="1.5"/>
-<pad name="-" x="2.54" y="0" drill="0.6" diameter="1.5"/>
-<text x="4.1402" y="2.286" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-2.5146" y="-3.0226" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<rectangle x1="0.254" y1="-1.143" x2="0.889" y2="1.143" layer="21"/>
-</package>
 <package name="DIODE-1N4001">
 <wire x1="3.175" y1="1.27" x2="1.905" y2="1.27" width="0.254" layer="21"/>
 <wire x1="1.905" y1="1.27" x2="-3.175" y2="1.27" width="0.254" layer="21"/>
@@ -1139,8 +1097,8 @@ grid 22.5 mm, outline 8.7 x 26.8 mm</description>
 <circle x="0" y="0" radius="3.5" width="0.127" layer="21"/>
 <pad name="P$1" x="-1.5" y="0" drill="0.8" diameter="1.5"/>
 <pad name="P$2" x="1.5" y="0" drill="0.8" diameter="1.5"/>
-<text x="3.81" y="1.27" size="1.27" layer="21">&gt;NAME</text>
-<text x="3.81" y="-2.54" size="1.27" layer="21">&gt;VALUE</text>
+<text x="3.81" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="3.81" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 <package name="CA6V">
 <description>&lt;b&gt;POTENTIOMETER&lt;/b&gt;&lt;p&gt;
@@ -1191,6 +1149,48 @@ distributor Schukat</description>
 <rectangle x1="-3.683" y1="-3.048" x2="-0.508" y2="-2.032" layer="51"/>
 <rectangle x1="1.905" y1="-3.81" x2="3.175" y2="-3.048" layer="51"/>
 <rectangle x1="-3.175" y1="-3.81" x2="-1.905" y2="-3.048" layer="51"/>
+</package>
+<package name="E5-13">
+<description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
+grid 5.08 mm, diameter 13 mm</description>
+<wire x1="-1.143" y1="0" x2="-0.889" y2="0" width="0.1524" layer="21"/>
+<wire x1="-0.889" y1="0" x2="-0.889" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-0.889" y1="-1.27" x2="-0.254" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-0.254" y1="-1.27" x2="-0.254" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-0.254" y1="1.27" x2="-0.889" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-0.889" y1="1.27" x2="-0.889" y2="0" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="0" x2="1.143" y2="0" width="0.1524" layer="21"/>
+<wire x1="-5.715" y1="0" x2="-4.445" y2="0" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="-0.635" x2="-5.08" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="0" x2="1.524" y2="0" width="0.1524" layer="51"/>
+<wire x1="-1.651" y1="0" x2="-1.143" y2="0" width="0.1524" layer="51"/>
+<circle x="0" y="0" radius="6.985" width="0.1524" layer="21"/>
+<pad name="+" x="-2.54" y="0" drill="0.8" diameter="1.6764"/>
+<pad name="-" x="2.54" y="0" drill="0.8" diameter="1.6764"/>
+<text x="6.3754" y="4.1148" size="1.778" layer="25" ratio="10">&gt;NAME</text>
+<text x="-4.572" y="-3.937" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="0.254" y1="-1.27" x2="0.889" y2="1.27" layer="21"/>
+</package>
+<package name="E5-8,5">
+<description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
+grid 5.08 mm, diameter 8.5 mm</description>
+<wire x1="-1.143" y1="0" x2="-0.889" y2="0" width="0.1524" layer="21"/>
+<wire x1="-0.889" y1="0" x2="-0.889" y2="-1.143" width="0.1524" layer="21"/>
+<wire x1="-0.889" y1="-1.143" x2="-0.254" y2="-1.143" width="0.1524" layer="21"/>
+<wire x1="-0.254" y1="-1.143" x2="-0.254" y2="1.143" width="0.1524" layer="21"/>
+<wire x1="-0.254" y1="1.143" x2="-0.889" y2="1.143" width="0.1524" layer="21"/>
+<wire x1="-0.889" y1="1.143" x2="-0.889" y2="0" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="0" x2="1.143" y2="0" width="0.1524" layer="21"/>
+<wire x1="-3.302" y1="2.032" x2="-3.302" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-3.683" y1="1.651" x2="-2.921" y2="1.651" width="0.1524" layer="21"/>
+<wire x1="1.143" y1="0" x2="1.651" y2="0" width="0.1524" layer="51"/>
+<wire x1="-1.651" y1="0" x2="-1.143" y2="0" width="0.1524" layer="51"/>
+<circle x="0" y="0" radius="4.445" width="0.1524" layer="21"/>
+<pad name="+" x="-2.54" y="0" drill="0.7" diameter="1.5"/>
+<pad name="-" x="2.54" y="0" drill="0.7" diameter="1.5"/>
+<text x="4.1402" y="2.286" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.5146" y="-3.0226" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="0.254" y1="-1.143" x2="0.889" y2="1.143" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -1777,26 +1777,6 @@ These are standard reverse protection diodes and small signal diodes.</descripti
 </library>
 <library name="iStivi - Header-Connector">
 <packages>
-<package name="SCREWTERMINAL-3.5MM-2">
-<wire x1="-1.75" y1="3.4" x2="5.25" y2="3.4" width="0.2032" layer="21"/>
-<wire x1="5.25" y1="3.4" x2="5.25" y2="-2.8" width="0.2032" layer="21"/>
-<wire x1="5.25" y1="-2.8" x2="5.25" y2="-3.6" width="0.2032" layer="21"/>
-<wire x1="5.25" y1="-3.6" x2="-1.75" y2="-3.6" width="0.2032" layer="21"/>
-<wire x1="-1.75" y1="-3.6" x2="-1.75" y2="-2.8" width="0.2032" layer="21"/>
-<wire x1="-1.75" y1="-2.8" x2="-1.75" y2="3.4" width="0.2032" layer="21"/>
-<wire x1="5.25" y1="-2.8" x2="-1.75" y2="-2.8" width="0.2032" layer="21"/>
-<wire x1="-1.75" y1="-1.35" x2="-2.15" y2="-1.35" width="0.2032" layer="51"/>
-<wire x1="-2.15" y1="-1.35" x2="-2.15" y2="-2.35" width="0.2032" layer="51"/>
-<wire x1="-2.15" y1="-2.35" x2="-1.75" y2="-2.35" width="0.2032" layer="51"/>
-<wire x1="5.25" y1="3.15" x2="5.65" y2="3.15" width="0.2032" layer="51"/>
-<wire x1="5.65" y1="3.15" x2="5.65" y2="2.15" width="0.2032" layer="51"/>
-<wire x1="5.65" y1="2.15" x2="5.25" y2="2.15" width="0.2032" layer="51"/>
-<circle x="2" y="3" radius="0.2828" width="0.127" layer="51"/>
-<pad name="1" x="0" y="0" drill="1" diameter="2" shape="octagon"/>
-<pad name="2" x="3.5" y="0" drill="1" diameter="2" shape="octagon"/>
-<text x="-1.27" y="2.54" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-1.27" y="1.27" size="0.4064" layer="27">&gt;VALUE</text>
-</package>
 <package name="1X02">
 <wire x1="-0.635" y1="1.27" x2="0.635" y2="1.27" width="0.2032" layer="21"/>
 <wire x1="0.635" y1="1.27" x2="1.27" y2="0.635" width="0.2032" layer="21"/>
@@ -1812,8 +1792,8 @@ These are standard reverse protection diodes and small signal diodes.</descripti
 <wire x1="-1.27" y1="-0.635" x2="-0.635" y2="-1.27" width="0.2032" layer="21"/>
 <wire x1="0.635" y1="-1.27" x2="-0.635" y2="-1.27" width="0.2032" layer="21"/>
 <wire x1="3.81" y1="0.635" x2="3.81" y2="-0.635" width="0.2032" layer="21"/>
-<pad name="1" x="0" y="0" drill="0.8" diameter="1.8" shape="octagon" rot="R90"/>
-<pad name="2" x="2.54" y="0" drill="0.8" diameter="1.8" shape="octagon" rot="R90"/>
+<pad name="1" x="0" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="2" x="2.54" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
 <text x="-1.3462" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-1.27" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
@@ -1829,8 +1809,28 @@ These are standard reverse protection diodes and small signal diodes.</descripti
 <wire x1="0" y1="-2.54" x2="0" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="0" y1="-1.27" x2="2.54" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="2.54" y1="-1.27" x2="2.54" y2="-2.54" width="0.127" layer="21"/>
-<pad name="1" x="0" y="0" drill="1" diameter="2" shape="octagon"/>
-<pad name="2" x="2.54" y="0" drill="1" diameter="2" shape="octagon"/>
+<pad name="1" x="0" y="0" drill="1.016" diameter="1.8796" shape="square"/>
+<pad name="2" x="2.54" y="0" drill="1.016" diameter="1.8796"/>
+</package>
+<package name="SCREWTERMINAL-3.5MM-2">
+<wire x1="-1.75" y1="3.4" x2="5.25" y2="3.4" width="0.2032" layer="21"/>
+<wire x1="5.25" y1="3.4" x2="5.25" y2="-2.8" width="0.2032" layer="21"/>
+<wire x1="5.25" y1="-2.8" x2="5.25" y2="-3.6" width="0.2032" layer="21"/>
+<wire x1="5.25" y1="-3.6" x2="-1.75" y2="-3.6" width="0.2032" layer="21"/>
+<wire x1="-1.75" y1="-3.6" x2="-1.75" y2="-2.8" width="0.2032" layer="21"/>
+<wire x1="-1.75" y1="-2.8" x2="-1.75" y2="3.4" width="0.2032" layer="21"/>
+<wire x1="5.25" y1="-2.8" x2="-1.75" y2="-2.8" width="0.2032" layer="21"/>
+<wire x1="-1.75" y1="-1.35" x2="-2.15" y2="-1.35" width="0.2032" layer="51"/>
+<wire x1="-2.15" y1="-1.35" x2="-2.15" y2="-2.35" width="0.2032" layer="51"/>
+<wire x1="-2.15" y1="-2.35" x2="-1.75" y2="-2.35" width="0.2032" layer="51"/>
+<wire x1="5.25" y1="3.15" x2="5.65" y2="3.15" width="0.2032" layer="51"/>
+<wire x1="5.65" y1="3.15" x2="5.65" y2="2.15" width="0.2032" layer="51"/>
+<wire x1="5.65" y1="2.15" x2="5.25" y2="2.15" width="0.2032" layer="51"/>
+<circle x="2" y="3" radius="0.2828" width="0.127" layer="51"/>
+<pad name="1" x="0" y="0" drill="1.2" diameter="2.032" shape="square"/>
+<pad name="2" x="3.5" y="0" drill="1.2" diameter="2.032"/>
+<text x="-1.27" y="2.54" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-1.27" y="1.27" size="0.4064" layer="27">&gt;VALUE</text>
 </package>
 <package name="SCREWTERMINAL-5MM-2">
 <wire x1="-3.1" y1="4.2" x2="8.1" y2="4.2" width="0.2032" layer="21"/>
@@ -1847,28 +1847,22 @@ These are standard reverse protection diodes and small signal diodes.</descripti
 <wire x1="8.7" y1="4" x2="8.7" y2="3" width="0.2032" layer="51"/>
 <wire x1="8.7" y1="3" x2="8.1" y2="3" width="0.2032" layer="51"/>
 <circle x="2.5" y="3.7" radius="0.2828" width="0.127" layer="51"/>
-<pad name="1" x="0" y="0" drill="1.1" diameter="2.5" shape="octagon"/>
-<pad name="2" x="5" y="0" drill="1.1" diameter="2.5" shape="octagon"/>
+<pad name="1" x="0" y="0" drill="1.3" diameter="2.032" shape="square"/>
+<pad name="2" x="5" y="0" drill="1.3" diameter="2.032"/>
 <text x="-1.27" y="2.54" size="0.4064" layer="25">&gt;NAME</text>
 <text x="-1.27" y="1.27" size="0.4064" layer="27">&gt;VALUE</text>
 </package>
 <package name="1X02_LONGPADS">
-<pad name="1" x="0" y="0" drill="0.8" diameter="1.8" shape="octagon" rot="R90"/>
-<pad name="2" x="2.54" y="0" drill="0.8" diameter="1.8" shape="octagon" rot="R90"/>
-<wire x1="-1.27" y1="0.635" x2="-1.27" y2="-0.635" width="0.2032" layer="21"/>
-<text x="-1.27" y="2.54" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-1.27" y="-3.81" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
-<wire x1="3.81" y1="0.635" x2="3.81" y2="-0.635" width="0.2032" layer="21"/>
-<rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
+<pad name="1" x="0" y="0" drill="1.1176" diameter="1.8796" shape="long" rot="R90"/>
+<pad name="2" x="2.54" y="0" drill="1.1176" diameter="1.8796" shape="long" rot="R90"/>
 </package>
 <package name="1X02_PP_HOLES_ONLY">
 <circle x="0" y="0" radius="0.635" width="0.127" layer="51"/>
 <circle x="2.54" y="0" radius="0.635" width="0.127" layer="51"/>
-<pad name="1" x="0" y="0" drill="0.9" diameter="1.8" shape="octagon" rot="R90"/>
-<pad name="2" x="2.54" y="0" drill="0.9" diameter="1.8" shape="octagon" rot="R90"/>
-<hole x="0" y="0" drill="0.8"/>
-<hole x="2.54" y="0" drill="0.8"/>
+<pad name="1" x="0" y="0" drill="0.889" diameter="0.8128" rot="R90"/>
+<pad name="2" x="2.54" y="0" drill="0.889" diameter="0.8128" rot="R90"/>
+<hole x="0" y="0" drill="1.4732"/>
+<hole x="2.54" y="0" drill="1.4732"/>
 </package>
 <package name="JST-2-PTH-NS">
 <wire x1="-2" y1="0" x2="-2" y2="-1.8" width="0.2032" layer="51"/>
@@ -1878,8 +1872,8 @@ These are standard reverse protection diodes and small signal diodes.</descripti
 <wire x1="3" y1="6" x2="3" y2="-1.8" width="0.2032" layer="51"/>
 <wire x1="3" y1="-1.8" x2="2" y2="-1.8" width="0.2032" layer="51"/>
 <wire x1="2" y1="-1.8" x2="2" y2="0" width="0.2032" layer="51"/>
-<pad name="1" x="-1" y="0" drill="0.7" diameter="1.6" shape="octagon"/>
-<pad name="2" x="1" y="0" drill="0.7" diameter="1.6" shape="octagon"/>
+<pad name="1" x="-1" y="0" drill="0.7" diameter="1.4478"/>
+<pad name="2" x="1" y="0" drill="0.7" diameter="1.4478"/>
 <text x="-1.27" y="5.27" size="0.4064" layer="25">&gt;Name</text>
 <text x="-1.27" y="4" size="0.4064" layer="27">&gt;Value</text>
 <text x="0.6" y="0.7" size="1.27" layer="51">+</text>
@@ -1899,17 +1893,10 @@ These are standard reverse protection diodes and small signal diodes.</descripti
 <wire x1="3.44" y1="4" x2="3.44" y2="1" width="0.254" layer="21"/>
 <wire x1="3.44" y1="7.88" x2="3.44" y2="6" width="0.254" layer="21"/>
 <wire x1="3.44" y1="-0.9" x2="3.44" y2="-2.8" width="0.254" layer="21"/>
-<pad name="1" x="0" y="0" drill="0.7" diameter="1.6" shape="octagon"/>
-<pad name="P$2" x="0" y="5.08" drill="0.7" diameter="1.6" shape="octagon"/>
-<pad name="P$3" x="2.54" y="5.08" drill="0.7" diameter="1.6" shape="octagon"/>
-<pad name="2" x="2.54" y="0" drill="0.7" diameter="1.6" shape="octagon"/>
-</package>
-<package name="1X02_1.5M_HOLES">
-<description>Large 1.5 drilled holes for thick wires to power</description>
-<pad name="1" x="-2.54" y="0" drill="1.5" diameter="3.5" rot="R90"/>
-<pad name="2" x="2.54" y="0" drill="1.5" diameter="3.5" rot="R90"/>
-<text x="-3.81" y="2.54" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-3.81" y="-3.81" size="1.27" layer="27">&gt;VALUE</text>
+<pad name="1" x="0" y="0" drill="1.1" diameter="1.9"/>
+<pad name="P$2" x="0" y="5.08" drill="1.1" diameter="1.9"/>
+<pad name="P$3" x="2.54" y="5.08" drill="1.1" diameter="1.9"/>
+<pad name="2" x="2.54" y="0" drill="1.1" diameter="1.9"/>
 </package>
 </packages>
 <symbols>
@@ -1998,15 +1985,6 @@ Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </technologies>
 </device>
 <device name="SPRING-2.54-RA" package="SPRINGTERMINAL-2.54MM-2">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-1.5MM" package="1X02_1.5M_HOLES">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -2286,14 +2264,14 @@ NPN transistor</description>
 <part name="D1" library="iStivi - RCLD" deviceset="DIODE" device="SMA" value="1N4007"/>
 <part name="C4" library="iStivi - RCLD" deviceset="CAPACITOR_POL" device="E3.5-8" value="2.2uF"/>
 <part name="C1" library="iStivi - RCLD" deviceset="CAPACITOR_POL" device="E5-10.5" value="330uF"/>
-<part name="R5" library="iStivi - RCLD" deviceset="RESISTOR" device="R1206" value="56K"/>
-<part name="R4" library="iStivi - RCLD" deviceset="RESISTOR" device="R1206" value="10K"/>
-<part name="R3" library="iStivi - RCLD" deviceset="RESISTOR" device="R1206" value="1K"/>
+<part name="R5" library="iStivi - RCLD" deviceset="RESISTOR" device="R0805" value="56K"/>
+<part name="R4" library="iStivi - RCLD" deviceset="RESISTOR" device="R0805" value="10K"/>
+<part name="R3" library="iStivi - RCLD" deviceset="RESISTOR" device="R0805" value="1K"/>
 <part name="R1" library="iStivi - RCLD" deviceset="RESISTOR" device="0207/10" value="220K"/>
 <part name="R2" library="iStivi - RCLD" deviceset="RESISTOR" device="0207/10" value="470R"/>
-<part name="R6" library="iStivi - RCLD" deviceset="RESISTOR" device="R1206" value="2K2"/>
-<part name="C3" library="iStivi - RCLD" deviceset="CAPACITOR" device="C1206K" value="100pF"/>
-<part name="C2" library="iStivi - RCLD" deviceset="CAPACITOR" device="C1206K" value="2n2"/>
+<part name="R6" library="iStivi - RCLD" deviceset="RESISTOR" device="R0805" value="2K2"/>
+<part name="C3" library="iStivi - RCLD" deviceset="CAPACITOR" device="C0805K" value="100pF"/>
+<part name="C2" library="iStivi - RCLD" deviceset="CAPACITOR" device="C0805K" value="2n2"/>
 <part name="GND1" library="iStivi - Supply" deviceset="GND" device=""/>
 <part name="180V" library="iStivi - Header-Connector" deviceset="M02" device="PTH"/>
 <part name="GND2" library="iStivi - Supply" deviceset="GND" device=""/>
@@ -2449,7 +2427,7 @@ NPN transistor</description>
 <wire x1="60.96" y1="25.4" x2="58.42" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="25.4" x2="58.42" y2="40.64" width="0.1524" layer="91"/>
 <junction x="60.96" y="25.4"/>
-<pinref part="IC1" gate="G$1" pin="TRE"/>
+<pinref part="IC1" gate="G$1" pin="THR"/>
 <wire x1="58.42" y1="40.64" x2="60.96" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="1"/>
 <pinref part="R4" gate="G$1" pin="1"/>
