@@ -1138,9 +1138,9 @@ distributor Schukat</description>
 <wire x1="-3.81" y1="3.429" x2="-3.81" y2="-1.524" width="0.1524" layer="21"/>
 <circle x="0" y="0" radius="2.032" width="0.1524" layer="51"/>
 <circle x="0" y="0" radius="1.27" width="0.1524" layer="51"/>
-<pad name="S" x="0" y="2.54" drill="0.8" diameter="1.8"/>
-<pad name="A" x="-2.54" y="-2.54" drill="0.8" diameter="1.8" rot="R90"/>
-<pad name="E" x="2.54" y="-2.54" drill="0.8" diameter="1.8" rot="R90"/>
+<pad name="S" x="0" y="2.54" drill="0.9" diameter="1.8"/>
+<pad name="A" x="-2.54" y="-2.54" drill="0.9" diameter="1.8" rot="R90"/>
+<pad name="E" x="2.54" y="-2.54" drill="0.9" diameter="1.8" rot="R90"/>
 <text x="-2.54" y="4.191" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-3.81" y="-5.461" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="0.508" y1="-3.048" x2="3.683" y2="-2.032" layer="51"/>
@@ -1758,12 +1758,31 @@ These are standard reverse protection diodes and small signal diodes.</descripti
 <text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
 </symbol>
+<symbol name="VCC">
+<wire x1="1.27" y1="-1.905" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
+<text x="-2.54" y="-2.54" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<pin name="VCC" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="GND" prefix="GND">
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
 <gate name="1" symbol="GND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="VCC" prefix="P+">
+<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
+<gates>
+<gate name="VCC" symbol="VCC" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -1792,25 +1811,12 @@ These are standard reverse protection diodes and small signal diodes.</descripti
 <wire x1="-1.27" y1="-0.635" x2="-0.635" y2="-1.27" width="0.2032" layer="21"/>
 <wire x1="0.635" y1="-1.27" x2="-0.635" y2="-1.27" width="0.2032" layer="21"/>
 <wire x1="3.81" y1="0.635" x2="3.81" y2="-0.635" width="0.2032" layer="21"/>
-<pad name="1" x="0" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="2" x="2.54" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="1" x="0" y="0" drill="1.1" diameter="2" rot="R90"/>
+<pad name="2" x="2.54" y="0" drill="1.1" diameter="2" rot="R90"/>
 <text x="-1.3462" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-1.27" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
 <rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
-</package>
-<package name="MOLEX-1X2">
-<wire x1="-1.27" y1="3.048" x2="-1.27" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="3.81" y1="3.048" x2="3.81" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="3.81" y1="3.048" x2="-1.27" y2="3.048" width="0.127" layer="21"/>
-<wire x1="3.81" y1="-2.54" x2="2.54" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="2.54" y1="-2.54" x2="0" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="0" y1="-2.54" x2="-1.27" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="0" y1="-2.54" x2="0" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="0" y1="-1.27" x2="2.54" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="2.54" y1="-1.27" x2="2.54" y2="-2.54" width="0.127" layer="21"/>
-<pad name="1" x="0" y="0" drill="1.016" diameter="1.8796" shape="square"/>
-<pad name="2" x="2.54" y="0" drill="1.016" diameter="1.8796"/>
 </package>
 <package name="SCREWTERMINAL-3.5MM-2">
 <wire x1="-1.75" y1="3.4" x2="5.25" y2="3.4" width="0.2032" layer="21"/>
@@ -1852,18 +1858,6 @@ These are standard reverse protection diodes and small signal diodes.</descripti
 <text x="-1.27" y="2.54" size="0.4064" layer="25">&gt;NAME</text>
 <text x="-1.27" y="1.27" size="0.4064" layer="27">&gt;VALUE</text>
 </package>
-<package name="1X02_LONGPADS">
-<pad name="1" x="0" y="0" drill="1.1176" diameter="1.8796" shape="long" rot="R90"/>
-<pad name="2" x="2.54" y="0" drill="1.1176" diameter="1.8796" shape="long" rot="R90"/>
-</package>
-<package name="1X02_PP_HOLES_ONLY">
-<circle x="0" y="0" radius="0.635" width="0.127" layer="51"/>
-<circle x="2.54" y="0" radius="0.635" width="0.127" layer="51"/>
-<pad name="1" x="0" y="0" drill="0.889" diameter="0.8128" rot="R90"/>
-<pad name="2" x="2.54" y="0" drill="0.889" diameter="0.8128" rot="R90"/>
-<hole x="0" y="0" drill="1.4732"/>
-<hole x="2.54" y="0" drill="1.4732"/>
-</package>
 <package name="JST-2-PTH-NS">
 <wire x1="-2" y1="0" x2="-2" y2="-1.8" width="0.2032" layer="51"/>
 <wire x1="-2" y1="-1.8" x2="-3" y2="-1.8" width="0.2032" layer="51"/>
@@ -1897,6 +1891,31 @@ These are standard reverse protection diodes and small signal diodes.</descripti
 <pad name="P$2" x="0" y="5.08" drill="1.1" diameter="1.9"/>
 <pad name="P$3" x="2.54" y="5.08" drill="1.1" diameter="1.9"/>
 <pad name="2" x="2.54" y="0" drill="1.1" diameter="1.9"/>
+</package>
+<package name="MOLEX-1X2">
+<wire x1="-1.27" y1="3.048" x2="-1.27" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="3.81" y1="3.048" x2="3.81" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="3.81" y1="3.048" x2="-1.27" y2="3.048" width="0.127" layer="21"/>
+<wire x1="3.81" y1="-2.54" x2="2.54" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="2.54" y1="-2.54" x2="0" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="0" y1="-2.54" x2="-1.27" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="0" y1="-1.27" x2="2.54" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="2.54" y1="-1.27" x2="2.54" y2="-2.54" width="0.127" layer="21"/>
+<pad name="1" x="0" y="0" drill="1" diameter="1.8796" shape="square"/>
+<pad name="2" x="2.54" y="0" drill="1" diameter="1.8796"/>
+</package>
+<package name="1X02_LONGPADS">
+<pad name="1" x="0" y="0" drill="1.1" diameter="1.8796" shape="long" rot="R90"/>
+<pad name="2" x="2.54" y="0" drill="1.1" diameter="1.8796" shape="long" rot="R90"/>
+</package>
+<package name="1X02_PP_HOLES_ONLY">
+<circle x="0" y="0" radius="0.635" width="0.127" layer="51"/>
+<circle x="2.54" y="0" radius="0.635" width="0.127" layer="51"/>
+<pad name="1" x="0" y="0" drill="0.9" diameter="0.8128" rot="R90"/>
+<pad name="2" x="2.54" y="0" drill="0.9" diameter="0.8128" rot="R90"/>
+<hole x="0" y="0" drill="1.4732"/>
+<hole x="2.54" y="0" drill="1.4732"/>
 </package>
 </packages>
 <symbols>
@@ -2284,6 +2303,7 @@ NPN transistor</description>
 <part name="L1" library="iStivi - RCLD" deviceset="INDUCTOR" device="" value="100uH"/>
 <part name="Q1" library="iStivi - Transistor-FET-reg" deviceset="IRF740" device="S"/>
 <part name="R7" library="iStivi - RCLD" deviceset="TRIM_POT" device="CA6V" value="1K"/>
+<part name="P+1" library="iStivi - Supply" deviceset="VCC" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2314,11 +2334,12 @@ NPN transistor</description>
 <instance part="L1" gate="G$1" x="66.04" y="58.42" rot="R90"/>
 <instance part="Q1" gate="G$1" x="50.8" y="38.1" rot="MR0"/>
 <instance part="R7" gate="G$1" x="0" y="17.78"/>
+<instance part="P+1" gate="VCC" x="88.9" y="66.04"/>
 </instances>
 <busses>
 </busses>
 <nets>
-<net name="N$1" class="0">
+<net name="OUT" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="OUT"/>
 <wire x1="53.34" y1="35.56" x2="81.28" y2="35.56" width="0.1524" layer="91"/>
@@ -2326,7 +2347,7 @@ NPN transistor</description>
 <pinref part="Q1" gate="G$1" pin="G"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="R6" class="0">
 <segment>
 <pinref part="C3" gate="G$1" pin="1"/>
 <pinref part="R6" gate="G$1" pin="1"/>
@@ -2395,7 +2416,7 @@ NPN transistor</description>
 <wire x1="101.6" y1="96.52" x2="96.52" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$4" class="0">
+<net name="DIS" class="0">
 <segment>
 <pinref part="R3" gate="G$1" pin="1"/>
 <pinref part="R4" gate="G$1" pin="2"/>
@@ -2407,7 +2428,7 @@ NPN transistor</description>
 <junction x="91.44" y="30.48"/>
 </segment>
 </net>
-<net name="N$3" class="0">
+<net name="CON" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="CON"/>
 <pinref part="R5" gate="G$1" pin="1"/>
@@ -2420,7 +2441,7 @@ NPN transistor</description>
 <pinref part="U2" gate="G$1" pin="C"/>
 </segment>
 </net>
-<net name="N$5" class="0">
+<net name="THR" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="TRI"/>
 <wire x1="60.96" y1="12.7" x2="60.96" y2="25.4" width="0.1524" layer="91"/>
@@ -2437,7 +2458,7 @@ NPN transistor</description>
 <junction x="91.44" y="12.7"/>
 </segment>
 </net>
-<net name="N$6" class="0">
+<net name="L1" class="0">
 <segment>
 <wire x1="48.26" y1="43.18" x2="48.26" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="50.8" x2="48.26" y2="58.42" width="0.1524" layer="91"/>
@@ -2469,21 +2490,21 @@ NPN transistor</description>
 <wire x1="0" y1="86.36" x2="0" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$8" class="0">
+<net name="R1" class="0">
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="0" y1="27.94" x2="0" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="R7" gate="G$1" pin="E"/>
 </segment>
 </net>
-<net name="N$9" class="0">
+<net name="R2" class="0">
 <segment>
 <pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="0" y1="10.16" x2="0" y2="7.62" width="0.1524" layer="91"/>
 <pinref part="R7" gate="G$1" pin="A"/>
 </segment>
 </net>
-<net name="N$10" class="0">
+<net name="VAR" class="0">
 <segment>
 <wire x1="5.08" y1="17.78" x2="5.08" y2="5.08" width="0.1524" layer="91"/>
 <wire x1="5.08" y1="5.08" x2="60.96" y2="5.08" width="0.1524" layer="91"/>
@@ -2491,7 +2512,17 @@ NPN transistor</description>
 <pinref part="R7" gate="G$1" pin="S"/>
 </segment>
 </net>
-<net name="N$26" class="0">
+<net name="5V" class="2">
+<segment>
+<pinref part="C5" gate="G$1" pin="+"/>
+<wire x1="157.48" y1="55.88" x2="162.56" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="5V" gate="G$1" pin="1"/>
+<wire x1="177.8" y1="55.88" x2="162.56" y2="55.88" width="0.1524" layer="91"/>
+<junction x="162.56" y="55.88"/>
+<pinref part="U1" gate="G$1" pin="VO"/>
+</segment>
+</net>
+<net name="VCC" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="VCC+"/>
 <pinref part="R3" gate="G$1" pin="2"/>
@@ -2506,8 +2537,9 @@ NPN transistor</description>
 <junction x="91.44" y="45.72"/>
 <pinref part="C1" gate="G$1" pin="+"/>
 <wire x1="114.3" y1="38.1" x2="114.3" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="114.3" y1="58.42" x2="81.28" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="58.42" x2="88.9" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G$1" pin="/RES"/>
+<wire x1="88.9" y1="58.42" x2="81.28" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="38.1" x2="81.28" y2="40.64" width="0.1524" layer="91"/>
 <junction x="81.28" y="40.64"/>
 <wire x1="81.28" y1="58.42" x2="81.28" y2="76.2" width="0.1524" layer="91"/>
@@ -2519,16 +2551,9 @@ NPN transistor</description>
 <junction x="114.3" y="58.42"/>
 <pinref part="U1" gate="G$1" pin="VI"/>
 <pinref part="L1" gate="G$1" pin="2"/>
-</segment>
-</net>
-<net name="5V" class="2">
-<segment>
-<pinref part="C5" gate="G$1" pin="+"/>
-<wire x1="157.48" y1="55.88" x2="162.56" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="5V" gate="G$1" pin="1"/>
-<wire x1="177.8" y1="55.88" x2="162.56" y2="55.88" width="0.1524" layer="91"/>
-<junction x="162.56" y="55.88"/>
-<pinref part="U1" gate="G$1" pin="VO"/>
+<pinref part="P+1" gate="VCC" pin="VCC"/>
+<wire x1="88.9" y1="63.5" x2="88.9" y2="58.42" width="0.1524" layer="91"/>
+<junction x="88.9" y="58.42"/>
 </segment>
 </net>
 </nets>
