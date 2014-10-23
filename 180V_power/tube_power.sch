@@ -2248,11 +2248,11 @@ NPN transistor</description>
 <part name="C3" library="iStivi - RCLD" deviceset="CAPACITOR" device="C0805K" value="100pF"/>
 <part name="C2" library="iStivi - RCLD" deviceset="CAPACITOR" device="C0805K" value="2n2"/>
 <part name="GND1" library="iStivi - Supply" deviceset="GND" device=""/>
-<part name="180V" library="iStivi - Header-Connector" deviceset="M02" device="PTH"/>
+<part name="180V" library="iStivi - Header-Connector" deviceset="M02" device="3.5MM"/>
 <part name="GND2" library="iStivi - Supply" deviceset="GND" device=""/>
 <part name="GND3" library="iStivi - Supply" deviceset="GND" device=""/>
-<part name="VIN" library="iStivi - Header-Connector" deviceset="M02" device="PTH"/>
-<part name="5V" library="iStivi - Header-Connector" deviceset="M02" device="PTH"/>
+<part name="VIN" library="iStivi - Header-Connector" deviceset="M02" device="3.5MM"/>
+<part name="5V" library="iStivi - Header-Connector" deviceset="M02" device="3.5MM"/>
 <part name="C5" library="iStivi - RCLD" deviceset="CAPACITOR_POL" device="E2-5" value="10uF"/>
 <part name="U1" library="iStivi - Transistor-FET-reg" deviceset="TLV1117-5" device="SOT-223"/>
 <part name="U2" library="iStivi - Transistor-FET-reg" deviceset="BC817" device=""/>
