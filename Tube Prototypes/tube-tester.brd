@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.4">
+<eagle version="6.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1836,25 +1836,6 @@ Design rules to fit with the etch and screening methods I use. For photoresist e
 <wire x1="82.423" y1="77.47" x2="89.408" y2="70.485" width="0.6096" layer="1"/>
 <wire x1="75.44" y1="77.47" x2="82.423" y2="77.47" width="0.6096" layer="1"/>
 </signal>
-<signal name="N$20">
-<contactref element="N1" pad="0"/>
-<contactref element="IC2" pad="16"/>
-<wire x1="83.439" y1="42.799" x2="78.74" y2="38.1" width="0.6096" layer="1"/>
-<wire x1="83.439" y1="44.069" x2="83.439" y2="42.799" width="0.6096" layer="16"/>
-<wire x1="84.455" y1="45.085" x2="83.439" y2="44.069" width="0.6096" layer="16"/>
-<wire x1="84.455" y1="46.863" x2="84.455" y2="45.085" width="0.6096" layer="16"/>
-<wire x1="75.819" y1="55.499" x2="84.455" y2="46.863" width="0.6096" layer="16"/>
-<wire x1="75.819" y1="72.771" x2="75.819" y2="55.499" width="0.6096" layer="16"/>
-<wire x1="75.44" y1="73.15" x2="75.819" y2="72.771" width="0.6096" layer="16"/>
-<via x="83.439" y="42.799" extent="1-16" drill="0.8"/>
-</signal>
-<signal name="N$21">
-<contactref element="R7" pad="1"/>
-<contactref element="N1" pad="A"/>
-<wire x1="73.787" y1="69.85" x2="87.63" y2="69.85" width="0.6096" layer="1"/>
-<wire x1="73.66" y1="69.723" x2="73.787" y2="69.85" width="0.6096" layer="1"/>
-<wire x1="73.66" y1="69.723" x2="73.63" y2="69.704" width="0.6096" layer="1"/>
-</signal>
 <signal name="N$22">
 <contactref element="IC2" pad="3"/>
 <contactref element="A" pad="2"/>
@@ -2031,25 +2012,20 @@ Design rules to fit with the etch and screening methods I use. For photoresist e
 <wire x1="66.04" y1="16.764" x2="66.04" y2="16.7132" width="0.6096" layer="16"/>
 <wire x1="79.756" y1="16.764" x2="80.01" y2="16.7132" width="0.6096" layer="16"/>
 </signal>
+<signal name="N$20">
+<contactref element="N1" pad="0"/>
+<contactref element="IC2" pad="16"/>
+<wire x1="78.74" y1="38.1" x2="75.44" y2="73.15" width="0" layer="19" extent="1-1"/>
+</signal>
 <signal name="N$30">
-<contactref element="N1" pad="LHDP"/>
 <contactref element="DP" pad="2"/>
-<wire x1="71.501" y1="68.707" x2="69.85" y2="68.707" width="0.6096" layer="1"/>
-<wire x1="74.803" y1="65.405" x2="71.501" y2="68.707" width="0.6096" layer="1"/>
-<wire x1="80.264" y1="65.405" x2="74.803" y2="65.405" width="0.6096" layer="1"/>
-<wire x1="88.265" y1="57.404" x2="80.264" y2="65.405" width="0.6096" layer="16"/>
-<wire x1="88.265" y1="55.753" x2="88.265" y2="57.404" width="0.6096" layer="16"/>
-<wire x1="93.218" y1="50.8" x2="88.265" y2="55.753" width="0.6096" layer="16"/>
-<wire x1="93.218" y1="37.465" x2="93.218" y2="50.8" width="0.6096" layer="16"/>
-<wire x1="86.995" y1="31.242" x2="93.218" y2="37.465" width="0.6096" layer="16"/>
-<wire x1="70.612" y1="14.859" x2="86.995" y2="31.242" width="0.6096" layer="1"/>
-<wire x1="69.215" y1="14.859" x2="70.612" y2="14.859" width="0.6096" layer="16"/>
-<wire x1="67.056" y1="12.7" x2="69.215" y2="14.859" width="0.6096" layer="16"/>
-<wire x1="66.04" y1="12.7" x2="67.056" y2="12.7" width="0.6096" layer="16"/>
-<wire x1="69.85" y1="68.707" x2="69.85" y2="68.83" width="0.6096" layer="1"/>
-<via x="80.264" y="65.405" extent="1-16" drill="0.8"/>
-<via x="86.995" y="31.242" extent="1-16" drill="0.8"/>
-<via x="70.612" y="14.859" extent="1-16" drill="0.8"/>
+<contactref element="N1" pad="LHDP"/>
+<wire x1="66.04" y1="12.7" x2="69.85" y2="68.83" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$21">
+<contactref element="R7" pad="1"/>
+<contactref element="N1" pad="A"/>
+<wire x1="73.63" y1="69.704" x2="87.63" y2="69.85" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>
