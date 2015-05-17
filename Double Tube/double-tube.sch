@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.6.0">
+<eagle version="6.4">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -149,18 +149,18 @@
 <wire x1="-9" y1="8.64" x2="9" y2="8.64" width="0.254" layer="21" curve="-100"/>
 <wire x1="9" y1="8.64" x2="9" y2="-8.64" width="0.254" layer="21"/>
 <wire x1="-9" y1="-8.64" x2="-9" y2="8.64" width="0.254" layer="21"/>
-<pad name="6" x="0" y="8.64" drill="0.7" diameter="2"/>
-<pad name="9" x="5.59" y="0" drill="0.7" diameter="2"/>
-<pad name="8" x="5.59" y="4.32" drill="0.7" diameter="2"/>
-<pad name="LHDP" x="0" y="-8.64" drill="0.7" diameter="2"/>
-<pad name="0" x="5.59" y="-4.32" drill="0.7" diameter="2"/>
-<pad name="A" x="3.78" y="-7.766" drill="0.7" diameter="2" shape="octagon"/>
-<pad name="7" x="3.78" y="7.766" drill="0.7" diameter="2"/>
-<pad name="5" x="-3.78" y="7.766" drill="0.7" diameter="2"/>
-<pad name="4" x="-5.59" y="4.32" drill="0.7" diameter="2"/>
-<pad name="3" x="-5.59" y="0" drill="0.7" diameter="2"/>
-<pad name="2" x="-5.59" y="-4.32" drill="0.7" diameter="2"/>
-<pad name="1" x="-3.78" y="-7.766" drill="0.7" diameter="2"/>
+<pad name="6" x="0" y="8.64" drill="0.9" diameter="2"/>
+<pad name="9" x="5.59" y="0" drill="0.9" diameter="2"/>
+<pad name="8" x="5.59" y="4.32" drill="0.9" diameter="2"/>
+<pad name="LHDP" x="0" y="-8.64" drill="0.9" diameter="2"/>
+<pad name="0" x="5.59" y="-4.32" drill="0.9" diameter="2"/>
+<pad name="A" x="3.78" y="-7.766" drill="0.9" diameter="2" shape="octagon"/>
+<pad name="7" x="3.78" y="7.766" drill="0.9" diameter="2"/>
+<pad name="5" x="-3.78" y="7.766" drill="0.9" diameter="2"/>
+<pad name="4" x="-5.59" y="4.32" drill="0.9" diameter="2"/>
+<pad name="3" x="-5.59" y="0" drill="0.9" diameter="2"/>
+<pad name="2" x="-5.59" y="-4.32" drill="0.9" diameter="2"/>
+<pad name="1" x="-3.78" y="-7.766" drill="0.9" diameter="2"/>
 <text x="11.3188" y="-3.8575" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 <text x="5.27" y="-9.604" size="1.27" layer="21">A</text>
 <text x="-1.72295" y="10.478953125" size="1.27" layer="21">TOP</text>
