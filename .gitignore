@@ -6,3 +6,14 @@
 *.ps
 */*/*.xcf
 cam/
+
+*.cb
+*.gbl
+*.gpi
+*.nc
+*.drd
+*.dri
+*.tap
+*.pro
+*.dru
+*.nci
